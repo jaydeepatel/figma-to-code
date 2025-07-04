@@ -2,13 +2,13 @@
 Default CSS
 ----------*/
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #ffffff;
     color: #333333;
     font-size: 18px;
@@ -16,11 +16,119 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
+}
+
+
+
+
+/*------------Home Page----------------*/
+
+.main__header__wrapper {
+    background-color: #00CBB8;
+    padding: 30px 125px;
+}
+
+.main__header__wrapper .container {
+    max-width: 1665px;
+    margin: 0px auto;
+}
+
+.main__header__wrapper .logo__wrapper {
+    max-width: 115px;
+    line-height: 0px;
+}
+
+.main__header__wrapper .main__group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__menu__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.navbar__menu__links ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.navbar__menu__links ul li a {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all ease 300ms;
+}
+
+.navbar__menu__links ul li a:hover{
+    color: #5B5B5B;
+}
+
+.header__btn__group {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.solid__white__btn {
+    display: block;
+    background-color: #ffffff;
+    border: 0px;
+    border-radius: 80px;
+    padding: 13px;
+    min-width: 160px;
+    text-align: center;
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1;
+    height: 60px;
+    transition: all ease 300ms;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.solid__white__btn:hover{
+    background-color:#5B5B5B;
+    color: #ffffff;
+}
+
+
+.solid__blue__btn {
+    display: block;
+    background-color: #ffffff30;
+    border: 0px;
+    border-radius: 80px;
+    padding: 13px;
+    min-width: 160px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1;
+    height: 60px;
+    transition: all ease 300ms;
+    cursor: pointer;
+     text-transform: capitalize;
+}
+
+.solid__blue__btn:hover{
+    background-color:#5B5B5B;
+    color: #ffffff;
 }
